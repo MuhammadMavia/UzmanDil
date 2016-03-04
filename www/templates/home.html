@@ -1,0 +1,20 @@
+<ion-view>
+  <ion-content>
+
+
+    <div class="list card">
+
+      <div class="item item-avatar">
+        <img ng-src="{{authData.data.profileImageURL}}">
+
+        <h2>{{authData.data.displayName}}</h2>
+        <p>ID : {{authData.data.id}}</p>
+      </div>
+
+      <div class="item item-body">
+        <img class="full-image" ng-src="{{authData.data.profileImageURL}}">
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>
